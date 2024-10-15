@@ -33,11 +33,11 @@
             <input type="text" onkeypress="return /[0-9]/i.test(event.key)" class="form-control" id="input-amount" placeholder="Amount">
           </div>
           <div class="col-md-6 col-sm-11">
-            <label for="input-first-name" class="form-label">Address 1</label>
+            <label for="input-first-name" class="form-label">First Name</label>
             <input type="text" class="form-control" id="input-first-name" placeholder="Alejandro">
           </div>
           <div class="col-md-6 col-sm-11">
-            <label for="input-last-name" class="form-label">Address 2</label>
+            <label for="input-last-name" class="form-label">Last Name</label>
             <input type="text" class="form-control" id="input-last-name" placeholder="Benito">
           </div>
           <div class="col-lg-6 col-sm-11">
@@ -60,10 +60,12 @@
 
 
 
-          <div class="d-flex flex-wrap justify-content-between mt-0">
+
+
+
             <div class="col-lg-6 col-sm-12">
-              <label class="mt-3 form-label">We accept:</label>
-              <div class="bg-secondary w-25 p-2 rounded-3 d-flex justify-content-around">
+              <label class="form-label">We accept:</label>
+              <div class="bg-secondary col-lg-5 col-sm-12 p-2 rounded-3 d-flex justify-content-around">
                 <div>
                   <input type="radio" name="payment" id="input-mastercard" value="mastercard">
                   <label class="form-check-label" for="input-mastercard">
@@ -91,15 +93,15 @@
               </div>
             </div>
     
-            <div class="col-lg-6 col-sm-12">
-              <label class="mt-3 form-label">Message</label>
+            <div class="col-lg-6 col-sm-12 justify-content-end">
+              <label class="form-label">Message</label>
               <div class="form-floating">
                 <textarea class="form-control" id="message-text-area"></textarea>
               </div>
               <div class="text-secondary fs-6">Add any notes here.</div>
             </div>
           </div>
-      </div>
+  
       <!-- end of card body -->
       <div class="card-footer text-body-secondary text-end mt-5">
         <button class="btn btn-secondary">Cancel</button>
